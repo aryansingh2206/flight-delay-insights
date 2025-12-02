@@ -1,0 +1,48 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------------------------
+# Data files
+# -------------------------
+data/*.csv
+data/*.zip
+data/*.json
+data/*.parquet
+
+# Keep empty data folder
+!data/.gitkeep
+
+# -------------------------
+# DuckDB database
+# -------------------------
+*.duckdb
+*.duckdb.wal
+
+# -------------------------
+# Logs & temp
+# -------------------------
+*.log
+*.tmp
+*.temp
+
+# -------------------------
+# OS / Editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
