@@ -149,8 +149,4 @@ ORDER BY d.year, d.month;
 * Add Airplane/TailNumber dimension
 * Automate ETL scheduling
 
----
 
-
-Just say the word!
-```
